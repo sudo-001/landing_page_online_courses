@@ -1,0 +1,33 @@
+nav {
+    padding: 0 5%;
+
+    .container {
+        // border: solid green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .links {
+            ul {
+                list-style: none;
+                display: flex;
+
+                li {
+                    margin: 20px;
+                    color: #C0C0C0;
+                    font-size: 22px;
+                    font-weight: bold;
+                    transition: 400ms; 
+
+                    &:hover { 
+                        cursor: pointer; 
+                        color: map-get($colors, primary); }
+                    &.hover {
+                        color: map-get($colors, primary);
+                    }
+
+                }
+            }
+        }
+    }
+}

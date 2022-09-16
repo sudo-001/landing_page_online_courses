@@ -1,0 +1,181 @@
+.banner {
+    height: 90vh;
+    padding: 0 5%;
+    background: #F8F8F8;
+
+    .container {
+        // border: solid red;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        
+        .text {
+            width: 40%;
+            // border: solid green;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            
+            >div, h1 {
+                margin: 20px 0 ;
+            }
+
+            h1 {
+                font-size: 55px;
+                font-weight: bold;
+                line-height: 140%;
+                
+                
+
+               >span {
+                    // border: solid red;
+                    position: relative;
+
+                    span {
+                        position: absolute;
+                        background-color: #fff;
+                        bottom: -20px;
+                        left: 0;
+                        height: 20px;
+                        width: 100%;
+                        border-radius: 100% 100% 0 0;
+                        // border-top: 3px solid map-get($colors, secondary);
+                        box-shadow: 0 -5px 0px map-get($colors, secondary);
+                        transform: rotate(-2deg);
+                    }
+                }
+            }
+
+            p {
+                font-size: x-large;
+                color: gray;
+
+                span {
+                    color: #000;
+                    font-weight: bold;
+                }
+            }
+
+            .audience {
+                // border: solid red;
+                display: flex;
+                justify-content: space-between;
+                // width: 80%;
+
+                >div {
+                    // border: blue solid ;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    
+                    
+                    h1 {
+                        font-size: xx-large;
+                        font-weight: bold;
+                    }
+
+                    h3 {
+                        font-size: large;
+                    }
+                }
+
+                div:nth-child(1) {
+                    h1 {
+                        color: map-get($colors, secondary);
+                    }
+                }
+
+
+                div:nth-child(2) {
+                    h1 {
+                        color: map-get($colors, primary);
+                    }
+                }
+
+
+                div:nth-child(3) {
+                    h1 {
+                        color: map-get($colors, thirt);
+                    }
+                }
+            }
+        }
+
+        .img-container {
+            width: 60%;
+            // border: solid yellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+
+            img {
+                position: absolute;
+            }
+
+            img:nth-child(1) {
+                top: 5%;
+                // border: solid red;
+                width: 400px;
+                left: 0;
+                z-index: 5;
+            }
+
+            img:nth-child(2) {
+                left: 25%;
+            }
+
+            img:nth-child(3) {
+                top: 10%;
+                right: 20%;
+            }
+
+            img:nth-child(4) {
+                top: 30%;
+                right: 15%;
+            }
+
+            img:nth-child(5) {
+                bottom: -5%;
+                right: 5%;
+            }
+
+            img:nth-child(6) {
+                left: 20%;
+                bottom: 5%;
+            }
+
+            img:nth-child(7) {
+                left: 18%;
+                bottom: 25%;
+            }
+
+            span:nth-child(8) {
+                position: absolute;
+                top: 10%;
+                right: 19%;
+
+                border: solid 1px #000;
+                border-radius: 60px ;
+                height: 140px;
+                width: 145px;
+                transform: rotate(35deg);
+            }
+
+            span:nth-child(9) {
+                position: absolute;
+                left: 21%;
+                bottom: 6%;
+
+                border: solid 1px #000;
+                border-radius: 50px ;
+                height: 120px;
+                width: 125px;
+                transform: rotate(45deg);
+            }
+        }
+    }
+}

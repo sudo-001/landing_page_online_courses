@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu;
+}
+
+.auth-btn button {
+  padding: 5px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 250ms;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+.auth-btn button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.auth-btn .login-btn {
+  color: #2489D3;
+  border: solid 3px #2489D3;
+  background-color: #fff;
+}
+.auth-btn .signin-btn {
+  color: #fff;
+  border: solid 3px #2489D3;
+  background-color: #2489D3;
+}
+
+.action-buttons button {
+  padding: 15px 60px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: solid 3px #2489D3;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 250ms;
+}
+.action-buttons button:hover {
+  font-size: 20.5px;
+}
+.action-buttons .start {
+  background-color: #2489D3;
+  color: #fff;
+}
+.action-buttons .how {
+  color: #2489D3;
+}
+
+.banner {
+  height: 90vh;
+  padding: 0 5%;
+  background: #F8F8F8;
+}
+.banner .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.banner .container .text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner .container .text > div, .banner .container .text h1 {
+  margin: 20px 0;
+}
+.banner .container .text h1 {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 140%;
+}
+.banner .container .text h1 > span {
+  position: relative;
+}
+.banner .container .text h1 > span span {
+  position: absolute;
+  background-color: #fff;
+  bottom: -20px;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  border-radius: 100% 100% 0 0;
+  box-shadow: 0 -5px 0px #F0C932;
+  transform: rotate(-2deg);
+}
+.banner .container .text p {
+  font-size: x-large;
+  color: gray;
+}
+.banner .container .text p span {
+  color: #000;
+  font-weight: bold;
+}
+.banner .container .text .audience {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .container .text .audience > div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.banner .container .text .audience > div h1 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.banner .container .text .audience > div h3 {
+  font-size: large;
+}
+.banner .container .text .audience div:nth-child(1) h1 {
+  color: #F0C932;
+}
+.banner .container .text .audience div:nth-child(2) h1 {
+  color: #2489D3;
+}
+.banner .container .text .audience div:nth-child(3) h1 {
+  color: #FE753F;
+}
+.banner .container .img-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+.banner .container .img-container img {
+  position: absolute;
+}
+.banner .container .img-container img:nth-child(1) {
+  top: 5%;
+  width: 400px;
+  left: 0;
+  z-index: 5;
+}
+.banner .container .img-container img:nth-child(2) {
+  left: 25%;
+}
+.banner .container .img-container img:nth-child(3) {
+  top: 10%;
+  right: 20%;
+}
+.banner .container .img-container img:nth-child(4) {
+  top: 30%;
+  right: 15%;
+}
+.banner .container .img-container img:nth-child(5) {
+  bottom: -5%;
+  right: 5%;
+}
+.banner .container .img-container img:nth-child(6) {
+  left: 20%;
+  bottom: 5%;
+}
+.banner .container .img-container img:nth-child(7) {
+  left: 18%;
+  bottom: 25%;
+}
+.banner .container .img-container span:nth-child(8) {
+  position: absolute;
+  top: 10%;
+  right: 19%;
+  border: solid 1px #000;
+  border-radius: 60px;
+  height: 140px;
+  width: 145px;
+  transform: rotate(35deg);
+}
+.banner .container .img-container span:nth-child(9) {
+  position: absolute;
+  left: 21%;
+  bottom: 6%;
+  border: solid 1px #000;
+  border-radius: 50px;
+  height: 120px;
+  width: 125px;
+  transform: rotate(45deg);
+}
+
+nav {
+  padding: 0 5%;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container .links ul {
+  list-style: none;
+  display: flex;
+}
+nav .container .links ul li {
+  margin: 20px;
+  color: #C0C0C0;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 400ms;
+}
+nav .container .links ul li:hover {
+  cursor: pointer;
+  color: #2489D3;
+}
+nav .container .links ul li.hover {
+  color: #2489D3;
+}
+
+/*# sourceMappingURL=app.css.map */

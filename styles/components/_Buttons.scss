@@ -1,0 +1,65 @@
+.auth-btn {
+    button {
+        padding: 5px 40px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 250ms;
+        border-radius: 20px;
+        margin: 0 10px;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+    }
+
+    .login-btn {
+        color: map-get($colors, primary);
+        border: solid 3px map-get($colors, primary);
+        background-color: #fff;
+            // color: #fff;
+            // background-color: map-get($colors, primary);
+    }
+
+    .signin-btn {
+        color: #fff;
+        border: solid 3px map-get($colors, primary);
+        background-color: map-get($colors, primary);
+
+        // &:hover {
+        //     cursor: pointer;
+        //     // color: map-get($colors, primary);
+        //     // background-color: #fff;
+        // }
+    }
+}
+
+.action-buttons {
+    // border: solid red;
+    // padding: 10px 0;
+
+    button {
+        padding: 15px 60px;
+        margin-right: 20px;
+        border-radius: 20px;
+        border: solid 3px map-get($colors, primary);
+        background-color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 250ms;
+
+        &:hover {
+            font-size: 20.5px;
+        }
+    }
+
+    .start {
+        background-color: map-get($colors, primary);
+        color: #fff;
+    }
+
+    .how {
+        color: map-get($colors, primary);
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "landing_page_study",
+  "version": "1.0.0",
+  "description": "Integration d'une landing page d'education trouvée sur figma community ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/app.scss:./styles/app.css"
+  },
+  "author": "ATEZONG YMELE CARICK",
+  "license": "ISC"
+}
